@@ -128,6 +128,17 @@ function SectionView({
         <strong>Məqsəd:</strong> {section.goal}
       </p>
 
+      {section.image && (
+        <figure className="section-figure">
+          <img
+            src={section.image.src}
+            alt={section.image.alt}
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      )}
+
       {section.blocks.map((block, i) => (
         <Block key={`${section.id}-${i}`} block={block} />
       ))}

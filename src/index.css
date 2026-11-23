@@ -344,6 +344,24 @@ button {
   color: var(--leaf-deep);
 }
 
+.section-figure {
+  margin: 0 0 1.4rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.section-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(420px, 52vw);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
 .content-pane h1 {
   margin: 0 0 0.75rem;
   font-family: var(--font-display);

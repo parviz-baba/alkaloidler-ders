@@ -62,6 +62,10 @@ export const sections = [
     id: "1",
     title: "Bölmə 1: Alkaloid nədir — ümumi giriş",
     goal: "Alkaloidin nə olduğunu, harada yığıldığını, kimyəvi mahiyyətini və niyə ehtiyatlı olmağı sadə dildə başa düşmək.",
+    image: {
+      src: "/assets/alkaloid-umumi.jpg",
+      alt: "Alkaloidlərin bitkidə yığılma yerləri — yarpaq, kök, qabıq, toxum və südəbənzər şirə sxemi",
+    },
     blocks: [
       {
         type: "p",
@@ -168,6 +172,10 @@ export const sections = [
     id: "2",
     title: "Bölmə 2: İstiot meyvəsi — Fructus Capsici",
     goal: "Acı bibər (isti ot) xammalını tanımaq — botanika, tərkib, təsirlər, əks göstəriş və yağ resepturası.",
+    image: {
+      src: "/assets/capsicum-fructus.jpg",
+      alt: "İstiot meyvəsi (Capsicum) — yetişmiş qırmızı meyvə, toxumlar və bitki anatomiyası",
+    },
     blocks: [
       {
         type: "p",
@@ -286,6 +294,10 @@ export const sections = [
     id: "3",
     title: "Bölmə 3: Zirinc — Folium et radix Berberidis",
     goal: "Zirincin kök/qabıq (alkaloidli) və meyvə (yumşaq, vitaminli) hissələrini ayırd edib öyrənmək.",
+    image: {
+      src: "/assets/zirinc-berberis.jpg",
+      alt: "Zirinc (Berberis) — yarpaq, sarı çiçək, qırmızı meyvə və kök qabığı anatomiyası",
+    },
     blocks: [
       {
         type: "p",
@@ -429,6 +441,10 @@ export const sections = [
     id: "4",
     title: "Bölmə 4: Üzərlik — Herba Pegani harmalae",
     goal: "Güclü alkaloidli üzərliyi tanımaq; təsirləri, əks göstərişləri və β-karbolin mexanizmini addım-addım başa düşmək.",
+    image: {
+      src: "/assets/uzerlik-peganum.jpg",
+      alt: "Üzərlik (Peganum harmala) — yarpaq, ağ çiçək və toxum kapsulları botanik sxemi",
+    },
     blocks: [
       {
         type: "p",
@@ -579,6 +595,10 @@ export const sections = [
     id: "5",
     title: "Bölmə 5: Dəmrovotu — Herba Chelidonii",
     goal: "Dəmrovotunu (zəhərli lateksli bitki) tanımaq; təsirləri, formaları, əks göstərişləri və dərsdəki reseptura qeydlərini saxlamaq.",
+    image: {
+      src: "/assets/demrovotu-chelidonium.jpg",
+      alt: "Dəmrovotu (Chelidonium) — loblu yarpaq, sarı çiçək və narıncı lateks şirəsi",
+    },
     blocks: [
       {
         type: "p",
@@ -695,6 +715,10 @@ export const sections = [
     id: "6",
     title: "Bölmə 6: Sarıkök–piperin qarışığı (reseptura)",
     goal: "Dərsdəki iltihabəleyhinə toz qarışığını dəqiq miqdarlarla saxlamaq və nə üçün piperin qeyd olunduğunu başa düşmək.",
+    image: {
+      src: "/assets/sarikok-piperin.jpg",
+      alt: "Sarıkök və qara istiot — kurkumin–piperin toz qarışığının botanik-əczaçılıq sxemi",
+    },
     blocks: [
       {
         type: "callout",
@@ -765,6 +789,10 @@ export const sections = [
     id: "7",
     title: "Bölmə 7: İnkarnat pasiflora — Herba Passiflorae incarnatae",
     goal: "Pasifloranı sakitləşdirici/yuxu tənzimləyici alkaloidli ot kimi öyrənmək; dəmləmə və tinktura resepturasını dəqiq saxlamaq.",
+    image: {
+      src: "/assets/pasiflora-incarnata.jpg",
+      alt: "İnkarnat pasiflora — loblu yarpaq, korona çiçəyi və meyvə botanik sxemi",
+    },
     blocks: [
       {
         type: "p",
