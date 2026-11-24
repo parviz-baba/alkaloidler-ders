@@ -22,7 +22,12 @@ npm run preview
 
 Canlı: https://parviz-baba.github.io/alkaloidler-ders/
 
-`main`-ə push olanda Actions `Deploy GitHub Pages` workflow ilə avtomatik deploy olunur (`base: /alkaloidler-ders/`).
+`base: /alkaloidler-ders/`. Deploy: Actions workflow (`main`) və ya `gh-pages` branch.
+
+**Bir dəfəlik aktivləşdirmə (repo sahibi):**
+1. https://github.com/parviz-baba/alkaloidler-ders/settings/pages
+2. Source: **Deploy from a branch** → Branch: **gh-pages** / **/** → Save  
+   *və ya* Source: **GitHub Actions** → Save, sonra failed `Deploy GitHub Pages` run-u Re-run.
 
 ## Mənbə
 
