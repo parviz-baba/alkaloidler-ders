@@ -18,6 +18,12 @@ npm run build
 npm run preview
 ```
 
+## GitHub Pages
+
+Canlı: https://parviz-baba.github.io/alkaloidler-ders/
+
+`main`-ə push olanda Actions `Deploy GitHub Pages` workflow ilə avtomatik deploy olunur (`base: /alkaloidler-ders/`).
+
 ## Mənbə
 
 Məzmun `alkaloidler-asan-ders.md` (asandan çətinə) əsasında — resepturalar daxil.
